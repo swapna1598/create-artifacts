@@ -1,4 +1,4 @@
-name: create artifacts
+name: create artifact
 
 on: [push, workflow_dispatch]
 
@@ -99,4 +99,5 @@ jobs:
           name: linux-test-report
           path: report.txt
     
+
   
